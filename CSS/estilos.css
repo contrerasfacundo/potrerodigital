@@ -1,0 +1,85 @@
+body {
+    background-image: url(https://img.freepik.com/fotos-premium/colorida-heladeria-modernavarios-sabores-helados_636638-2607.jpg);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #FFC300;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+aside {
+    background-color: #FFC300;
+    padding: 10px;
+}
+
+footer {
+    background-color: #FFC300;
+    padding: 10px;
+    text-align: center;
+}
+
+#icecream-icon {
+    font-size: 48px;
+}
+
+button {
+    background-color: #FF5733;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff3300f3;
+}
+
+
+@media  (max-width: 768px) {
+    
+    body {
+        font-size: 16px;
+    }
+
+    header {
+        padding: 5px;
+    }
+
+   
+}
+
+
+@media (min-width: 769px) {
+    
+    body {
+        font-size: 18px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    
+}
+section {display: flex;}
+
